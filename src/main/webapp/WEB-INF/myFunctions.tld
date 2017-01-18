@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+    <tlib-version>1.0</tlib-version>
+    <!-- 函数库前缀 -->
+    <short-name>mu</short-name>
+    <!-- 函数库uri -->
+    <uri>/myUtil</uri>
+    <!-- 配置方法 -->
+    <function>
+        <!-- 方法名 -->
+        <name>toUTF8</name>
+        <!-- 函数库支撑类(静态工具方法类) -->
+        <function-class>com.tz.bms.util.MyUtil</function-class>
+        <!-- 方法的描述(返回类型,方法名(参数列表)) -->
+        <function-signature>java.lang.String toUTF8(java.lang.String))</function-signature>
+    </function>
+</taglib>
